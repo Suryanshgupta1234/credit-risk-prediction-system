@@ -74,7 +74,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://127.0.0.1:5000/predict",
+        "https://credit-risk-prediction-system-mjeu.onrender.com/predict",
         {
           ...formData,
           income: Number(formData.income),
